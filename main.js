@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import './style.css';
-const texture = new THREE.TextureLoader().load('llama.jpg')
-const texture2 = new THREE.TextureLoader().load('1.jpg')
+const texture = new THREE.TextureLoader().load('/llama.jpg')
+const texture2 = new THREE.TextureLoader().load('/1.jpg')
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
